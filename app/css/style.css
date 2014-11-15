@@ -1,15 +1,19 @@
+/* [sass, assets/stylesheets, style.scss] */
 @charset "UTF-8";
 /**************************************/
 /* MEDIA QUERIES */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/* line 9, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
+/* line 19, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 body {
   margin: 0; }
 
+/* line 30, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 article,
 aside,
 details,
@@ -24,6 +28,7 @@ section,
 summary {
   display: block; }
 
+/* line 50, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -31,42 +36,53 @@ video {
   display: inline-block;
   vertical-align: baseline; }
 
+/* line 63, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
+/* line 73, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 [hidden],
 template {
   display: none; }
 
+/* line 85, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 a {
   background: transparent; }
 
+/* line 93, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
 
+/* line 105, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
+/* line 113, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
 
+/* line 122, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 dfn {
   font-style: italic; }
 
+/* line 131, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
+/* line 140, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
 
+/* line 149, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 small {
   font-size: 80%; }
 
+/* line 157, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -74,30 +90,38 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
+/* line 165, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 sup {
   top: -0.5em; }
 
+/* line 169, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
+/* line 180, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 img {
   border: 0; }
 
+/* line 188, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
+/* line 199, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
+/* line 207, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
+/* line 217, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 pre {
   overflow: auto; }
 
+/* line 225, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 code,
 kbd,
 pre,
@@ -105,6 +129,7 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
+/* line 248, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 button,
 input,
 optgroup,
@@ -114,13 +139,16 @@ textarea {
   font: inherit;
   margin: 0; }
 
+/* line 262, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 button {
   overflow: visible; }
 
+/* line 273, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 button,
 select {
   text-transform: none; }
 
+/* line 286, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -128,18 +156,22 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
+/* line 298, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
+/* line 307, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
+/* line 318, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 input {
   line-height: normal; }
 
+/* line 330, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   -webkit-box-sizing: border-box;
@@ -147,44 +179,54 @@ input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
+/* line 342, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
+/* line 353, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
+/* line 366, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
+/* line 375, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
+/* line 386, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 legend {
   border: 0;
   padding: 0; }
 
+/* line 395, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 textarea {
   overflow: auto; }
 
+/* line 404, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
+/* line 415, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 420, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_normalize.scss */
 td,
 th {
   padding: 0; }
 
 @media print {
+  /* line 8, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   * {
     text-shadow: none !important;
     color: #000 !important;
@@ -192,83 +234,104 @@ th {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
+  /* line 15, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   a,
   a:visited {
     text-decoration: underline; }
 
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
 
+  /* line 24, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
 
+  /* line 29, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: ""; }
 
+  /* line 34, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
 
+  /* line 40, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   thead {
     display: table-header-group; }
 
+  /* line 44, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   tr,
   img {
     page-break-inside: avoid; }
 
+  /* line 49, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   img {
     max-width: 100% !important; }
 
+  /* line 53, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3; }
 
+  /* line 60, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   h2,
   h3 {
     page-break-after: avoid; }
 
+  /* line 67, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   select {
     background: #fff !important; }
 
+  /* line 72, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   .navbar {
     display: none; }
 
+  /* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   .table td,
   .table th {
     background-color: #fff !important; }
 
+  /* line 83, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important; }
 
+  /* line 87, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   .label {
     border: 1px solid #000; }
 
+  /* line 91, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   .table {
     border-collapse: collapse !important; }
 
+  /* line 95, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_print.scss */
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
+/* line 11, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 14, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 22, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 html {
   font-size: 62.5%;
   -webkit-tap-highlight-color: transparent; }
 
+/* line 27, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -276,6 +339,7 @@ body {
   color: #333333;
   background-color: #fff; }
 
+/* line 36, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 input,
 button,
 select,
@@ -284,31 +348,39 @@ textarea {
   font-size: inherit;
   line-height: inherit; }
 
+/* line 48, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
   color: #428bca;
   text-decoration: none; }
+  /* line 52, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
     color: #2a6496;
     text-decoration: underline; }
+  /* line 58, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
 
+/* line 69, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 figure {
   margin: 0; }
 
+/* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 img {
   vertical-align: middle; }
 
+/* line 81, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-responsive {
   display: block;
   max-width: 100%;
   height: auto; }
 
+/* line 86, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-rounded {
   border-radius: 6px; }
 
+/* line 93, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857;
@@ -321,15 +393,18 @@ img {
   max-width: 100%;
   height: auto; }
 
+/* line 106, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-circle {
   border-radius: 50%; }
 
+/* line 113, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
   border-top: 1px solid #eeeeee; }
 
+/* line 125, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_scaffolding.scss */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -340,12 +415,14 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
+/* line 9, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
+  /* line 16, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   h1 small,
   h1 .small, h2 small,
   h2 .small, h3 small,
@@ -364,11 +441,13 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1;
     color: #999999; }
 
+/* line 24, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px; }
+  /* line 30, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   h1 small,
   h1 .small, .h1 small,
   .h1 .small,
@@ -380,11 +459,13 @@ h3, .h3 {
   .h3 .small {
     font-size: 65%; }
 
+/* line 35, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h4, .h4,
 h5, .h5,
 h6, .h6 {
   margin-top: 10px;
   margin-bottom: 10px; }
+  /* line 41, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   h4 small,
   h4 .small, .h4 small,
   .h4 .small,
@@ -396,162 +477,210 @@ h6, .h6 {
   .h6 .small {
     font-size: 75%; }
 
+/* line 47, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1 {
   font-size: 36px; }
 
+/* line 48, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h2, .h2 {
   font-size: 30px; }
 
+/* line 49, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h3, .h3 {
   font-size: 24px; }
 
+/* line 50, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h4, .h4 {
   font-size: 18px; }
 
+/* line 51, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h5, .h5 {
   font-size: 14px; }
 
+/* line 52, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 h6, .h6 {
   font-size: 12px; }
 
+/* line 58, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 p {
   margin: 0 0 10px; }
 
+/* line 62, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 200;
   line-height: 1.4; }
   @media (min-width: 768px) {
+    /* line 62, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
     .lead {
       font-size: 21px; } }
 
+/* line 78, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 small,
 .small {
   font-size: 85%; }
 
+/* line 82, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 cite {
   font-style: normal; }
 
+/* line 85, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .text-left {
   text-align: left; }
 
+/* line 86, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .text-right {
   text-align: right; }
 
+/* line 87, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .text-center {
   text-align: center; }
 
+/* line 88, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .text-justify {
   text-align: justify; }
 
+/* line 91, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .text-muted {
   color: #999999; }
 
+/* line 605, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .text-primary {
   color: #428bca; }
 
+/* line 608, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.text-primary:hover {
   color: #3071a9; }
 
+/* line 605, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .text-success {
   color: #3c763d; }
 
+/* line 608, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.text-success:hover {
   color: #2b542c; }
 
+/* line 605, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .text-info {
   color: #31708f; }
 
+/* line 608, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.text-info:hover {
   color: #245269; }
 
+/* line 605, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .text-warning {
   color: #8a6d3b; }
 
+/* line 608, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.text-warning:hover {
   color: #66512c; }
 
+/* line 605, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .text-danger {
   color: #a94442; }
 
+/* line 608, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.text-danger:hover {
   color: #843534; }
 
+/* line 108, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .bg-primary {
   color: #fff; }
 
+/* line 593, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .bg-primary {
   background-color: #428bca; }
 
+/* line 596, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.bg-primary:hover {
   background-color: #3071a9; }
 
+/* line 593, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .bg-success {
   background-color: #dff0d8; }
 
+/* line 596, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.bg-success:hover {
   background-color: #c1e2b3; }
 
+/* line 593, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .bg-info {
   background-color: #d9edf7; }
 
+/* line 596, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.bg-info:hover {
   background-color: #afd9ee; }
 
+/* line 593, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .bg-warning {
   background-color: #fcf8e3; }
 
+/* line 596, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.bg-warning:hover {
   background-color: #f7ecb5; }
 
+/* line 593, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .bg-danger {
   background-color: #f2dede; }
 
+/* line 596, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 a.bg-danger:hover {
   background-color: #e4b9b9; }
 
+/* line 127, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 1px solid #eeeeee; }
 
+/* line 138, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px; }
+  /* line 142, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   ul ul,
   ul ol,
   ol ul,
   ol ol {
     margin-bottom: 0; }
 
+/* line 151, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .list-unstyled, .list-inline {
   padding-left: 0;
   list-style: none; }
 
+/* line 157, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .list-inline {
   margin-left: -5px; }
+  /* line 161, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   .list-inline > li {
     display: inline-block;
     padding-left: 5px;
     padding-right: 5px; }
 
+/* line 169, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 dl {
   margin-top: 0;
   margin-bottom: 20px; }
 
+/* line 173, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 dt,
 dd {
   line-height: 1.42857; }
 
+/* line 177, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 dt {
   font-weight: bold; }
 
+/* line 180, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 dd {
   margin-left: 0; }
 
 @media (min-width: 768px) {
+  /* line 191, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -560,31 +689,39 @@ dd {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap; }
+  /* line 198, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   .dl-horizontal dd {
     margin-left: 180px; }
+    /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
     .dl-horizontal dd:before, .dl-horizontal dd:after {
       content: " ";
       display: table; }
+    /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
     .dl-horizontal dd:after {
       clear: both; } }
+/* line 209, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #999999; }
 
+/* line 215, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .initialism {
   font-size: 90%;
   text-transform: uppercase; }
 
+/* line 221, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
   border-left: 5px solid #eeeeee; }
+  /* line 230, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   blockquote p:last-child,
   blockquote ul:last-child,
   blockquote ol:last-child {
     margin-bottom: 0; }
+  /* line 237, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   blockquote footer,
   blockquote small,
   blockquote .small {
@@ -592,11 +729,13 @@ blockquote {
     font-size: 80%;
     line-height: 1.42857;
     color: #999999; }
+    /* line 245, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
     blockquote footer:before,
     blockquote small:before,
     blockquote .small:before {
       content: '\2014 \00A0'; }
 
+/* line 254, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 .blockquote-reverse,
 blockquote.pull-right {
   padding-right: 15px;
@@ -604,6 +743,7 @@ blockquote.pull-right {
   border-right: 5px solid #eeeeee;
   border-left: 0;
   text-align: right; }
+  /* line 266, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   .blockquote-reverse footer:before,
   .blockquote-reverse small:before,
   .blockquote-reverse .small:before,
@@ -611,6 +751,7 @@ blockquote.pull-right {
   blockquote.pull-right small:before,
   blockquote.pull-right .small:before {
     content: ''; }
+  /* line 267, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
   .blockquote-reverse footer:after,
   .blockquote-reverse small:after,
   .blockquote-reverse .small:after,
@@ -619,21 +760,25 @@ blockquote.pull-right {
   blockquote.pull-right .small:after {
     content: '\00A0 \2014'; }
 
+/* line 274, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 blockquote:before,
 blockquote:after {
   content: ""; }
 
+/* line 280, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_type.scss */
 address {
   margin-bottom: 20px;
   font-style: normal;
   line-height: 1.42857; }
 
+/* line 7, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_code.scss */
 code,
 kbd,
 pre,
 samp {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
 
+/* line 15, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_code.scss */
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -642,6 +787,7 @@ code {
   white-space: nowrap;
   border-radius: 4px; }
 
+/* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_code.scss */
 kbd {
   padding: 2px 4px;
   font-size: 90%;
@@ -651,6 +797,7 @@ kbd {
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25); }
 
+/* line 35, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_code.scss */
 pre {
   display: block;
   padding: 9.5px;
@@ -663,6 +810,7 @@ pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px; }
+  /* line 49, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_code.scss */
   pre code {
     padding: 0;
     font-size: inherit;
@@ -671,686 +819,910 @@ pre {
     background-color: transparent;
     border-radius: 0; }
 
+/* line 60, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_code.scss */
 .pre-scrollable {
   max-height: 340px;
   overflow-y: scroll; }
 
+/* line 10, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_grid.scss */
 .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .container:before, .container:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .container:after {
     clear: both; }
   @media (min-width: 768px) {
+    /* line 10, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_grid.scss */
     .container {
       width: 750px; } }
   @media (min-width: 992px) {
+    /* line 10, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_grid.scss */
     .container {
       width: 970px; } }
   @media (min-width: 1200px) {
+    /* line 10, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_grid.scss */
     .container {
       width: 1170px; } }
 
+/* line 30, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_grid.scss */
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .container-fluid:before, .container-fluid:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .container-fluid:after {
     clear: both; }
 
+/* line 39, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_grid.scss */
 .row {
   margin-left: -15px;
   margin-right: -15px; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .row:before, .row:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .row:after {
     clear: both; }
 
+/* line 798, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
+/* line 817, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-1 {
   width: 8.33333%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-2 {
   width: 16.66667%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-3 {
   width: 25%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-4 {
   width: 33.33333%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-5 {
   width: 41.66667%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-6 {
   width: 50%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-7 {
   width: 58.33333%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-8 {
   width: 66.66667%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-9 {
   width: 75%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-10 {
   width: 83.33333%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-11 {
   width: 91.66667%; }
 
+/* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-12 {
   width: 100%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-0 {
   right: 0%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-1 {
   right: 8.33333%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-2 {
   right: 16.66667%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-3 {
   right: 25%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-4 {
   right: 33.33333%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-5 {
   right: 41.66667%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-6 {
   right: 50%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-7 {
   right: 58.33333%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-8 {
   right: 66.66667%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-9 {
   right: 75%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-10 {
   right: 83.33333%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-11 {
   right: 91.66667%; }
 
+/* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-pull-12 {
   right: 100%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-0 {
   left: 0%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-1 {
   left: 8.33333%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-2 {
   left: 16.66667%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-3 {
   left: 25%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-4 {
   left: 33.33333%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-5 {
   left: 41.66667%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-6 {
   left: 50%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-7 {
   left: 58.33333%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-8 {
   left: 66.66667%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-9 {
   left: 75%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-10 {
   left: 83.33333%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-11 {
   left: 91.66667%; }
 
+/* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-push-12 {
   left: 100%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-0 {
   margin-left: 0%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-1 {
   margin-left: 8.33333%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-2 {
   margin-left: 16.66667%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-3 {
   margin-left: 25%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-4 {
   margin-left: 33.33333%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-5 {
   margin-left: 41.66667%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-6 {
   margin-left: 50%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-7 {
   margin-left: 58.33333%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-8 {
   margin-left: 66.66667%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-9 {
   margin-left: 75%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-10 {
   margin-left: 83.33333%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-11 {
   margin-left: 91.66667%; }
 
+/* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .col-xs-offset-12 {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
+  /* line 817, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-1 {
     width: 8.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-2 {
     width: 16.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-3 {
     width: 25%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-4 {
     width: 33.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-5 {
     width: 41.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-6 {
     width: 50%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-7 {
     width: 58.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-8 {
     width: 66.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-9 {
     width: 75%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-10 {
     width: 83.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-11 {
     width: 91.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-12 {
     width: 100%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-0 {
     right: 0%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-1 {
     right: 8.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-2 {
     right: 16.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-3 {
     right: 25%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-4 {
     right: 33.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-5 {
     right: 41.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-6 {
     right: 50%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-7 {
     right: 58.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-8 {
     right: 66.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-9 {
     right: 75%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-10 {
     right: 83.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-11 {
     right: 91.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-pull-12 {
     right: 100%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-0 {
     left: 0%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-1 {
     left: 8.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-2 {
     left: 16.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-3 {
     left: 25%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-4 {
     left: 33.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-5 {
     left: 41.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-6 {
     left: 50%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-7 {
     left: 58.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-8 {
     left: 66.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-9 {
     left: 75%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-10 {
     left: 83.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-11 {
     left: 91.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-push-12 {
     left: 100%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-0 {
     margin-left: 0%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-1 {
     margin-left: 8.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-2 {
     margin-left: 16.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-3 {
     margin-left: 25%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-4 {
     margin-left: 33.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-5 {
     margin-left: 41.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-6 {
     margin-left: 50%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-7 {
     margin-left: 58.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-8 {
     margin-left: 66.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-9 {
     margin-left: 75%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-10 {
     margin-left: 83.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-11 {
     margin-left: 91.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 992px) {
+  /* line 817, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-1 {
     width: 8.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-2 {
     width: 16.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-3 {
     width: 25%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-4 {
     width: 33.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-5 {
     width: 41.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-6 {
     width: 50%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-7 {
     width: 58.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-8 {
     width: 66.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-9 {
     width: 75%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-10 {
     width: 83.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-11 {
     width: 91.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-12 {
     width: 100%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-0 {
     right: 0%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-1 {
     right: 8.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-2 {
     right: 16.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-3 {
     right: 25%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-4 {
     right: 33.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-5 {
     right: 41.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-6 {
     right: 50%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-7 {
     right: 58.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-8 {
     right: 66.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-9 {
     right: 75%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-10 {
     right: 83.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-11 {
     right: 91.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-pull-12 {
     right: 100%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-0 {
     left: 0%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-1 {
     left: 8.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-2 {
     left: 16.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-3 {
     left: 25%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-4 {
     left: 33.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-5 {
     left: 41.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-6 {
     left: 50%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-7 {
     left: 58.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-8 {
     left: 66.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-9 {
     left: 75%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-10 {
     left: 83.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-11 {
     left: 91.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-push-12 {
     left: 100%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-0 {
     margin-left: 0%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-1 {
     margin-left: 8.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-2 {
     margin-left: 16.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-3 {
     margin-left: 25%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-4 {
     margin-left: 33.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-5 {
     margin-left: 41.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-6 {
     margin-left: 50%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-7 {
     margin-left: 58.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-8 {
     margin-left: 66.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-9 {
     margin-left: 75%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-10 {
     margin-left: 83.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-11 {
     margin-left: 91.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 1200px) {
+  /* line 817, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-1 {
     width: 8.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-2 {
     width: 16.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-3 {
     width: 25%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-4 {
     width: 33.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-5 {
     width: 41.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-6 {
     width: 50%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-7 {
     width: 58.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-8 {
     width: 66.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-9 {
     width: 75%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-10 {
     width: 83.33333%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-11 {
     width: 91.66667%; }
 
+  /* line 825, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-12 {
     width: 100%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-0 {
     right: 0%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-1 {
     right: 8.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-2 {
     right: 16.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-3 {
     right: 25%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-4 {
     right: 33.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-5 {
     right: 41.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-6 {
     right: 50%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-7 {
     right: 58.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-8 {
     right: 66.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-9 {
     right: 75%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-10 {
     right: 83.33333%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-11 {
     right: 91.66667%; }
 
+  /* line 835, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-pull-12 {
     right: 100%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-0 {
     left: 0%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-1 {
     left: 8.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-2 {
     left: 16.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-3 {
     left: 25%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-4 {
     left: 33.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-5 {
     left: 41.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-6 {
     left: 50%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-7 {
     left: 58.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-8 {
     left: 66.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-9 {
     left: 75%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-10 {
     left: 83.33333%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-11 {
     left: 91.66667%; }
 
+  /* line 830, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-push-12 {
     left: 100%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-0 {
     margin-left: 0%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-1 {
     margin-left: 8.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-2 {
     margin-left: 16.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-3 {
     margin-left: 25%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-4 {
     margin-left: 33.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-5 {
     margin-left: 41.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-6 {
     margin-left: 50%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-7 {
     margin-left: 58.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-8 {
     margin-left: 66.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-9 {
     margin-left: 75%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-10 {
     margin-left: 83.33333%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-11 {
     margin-left: 91.66667%; }
 
+  /* line 840, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .col-lg-offset-12 {
     margin-left: 100%; } }
+/* line 10, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 fieldset {
   padding: 0;
   margin: 0;
   border: 0;
   min-width: 0; }
 
+/* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 legend {
   display: block;
   width: 100%;
@@ -1362,16 +1734,19 @@ legend {
   border: 0;
   border-bottom: 1px solid #e5e5e5; }
 
+/* line 32, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 label {
   display: inline-block;
   margin-bottom: 5px;
   font-weight: bold; }
 
+/* line 46, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 51, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -1379,17 +1754,21 @@ input[type="checkbox"] {
   /* IE8-9 */
   line-height: normal; }
 
+/* line 59, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="file"] {
   display: block; }
 
+/* line 64, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="range"] {
   display: block;
   width: 100%; }
 
+/* line 70, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 select[multiple],
 select[size] {
   height: auto; }
 
+/* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -1397,6 +1776,7 @@ input[type="checkbox"]:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
+/* line 83, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 output {
   display: block;
   padding-top: 7px;
@@ -1404,6 +1784,7 @@ output {
   line-height: 1.42857;
   color: #555555; }
 
+/* line 114, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-control {
   display: block;
   width: 100%;
@@ -1420,35 +1801,45 @@ output {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  /* line 915, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .form-control:focus {
     border-color: #66afe9;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  /* line 57, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .form-control::-moz-placeholder {
     color: #999999;
     opacity: 1; }
+  /* line 59, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .form-control:-ms-input-placeholder {
     color: #999999; }
+  /* line 60, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .form-control::-webkit-input-placeholder {
     color: #999999; }
+  /* line 140, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
     cursor: not-allowed;
     background-color: #eeeeee;
     opacity: 1; }
 
+/* line 152, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 textarea.form-control {
   height: auto; }
 
+/* line 164, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none; }
 
+/* line 174, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="date"] {
   line-height: 34px; }
 
+/* line 184, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-group {
   margin-bottom: 15px; }
 
+/* line 193, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .radio,
 .checkbox {
   display: block;
@@ -1456,12 +1847,14 @@ input[type="date"] {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px; }
+  /* line 200, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .radio label,
   .checkbox label {
     display: inline;
     font-weight: normal;
     cursor: pointer; }
 
+/* line 206, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -1469,10 +1862,12 @@ input[type="date"] {
   float: left;
   margin-left: -20px; }
 
+/* line 213, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px; }
 
+/* line 219, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .radio-inline,
 .checkbox-inline {
   display: inline-block;
@@ -1482,11 +1877,13 @@ input[type="date"] {
   font-weight: normal;
   cursor: pointer; }
 
+/* line 228, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px; }
 
+/* line 243, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 input[type="radio"][disabled], fieldset[disabled] input[type="radio"],
 input[type="checkbox"][disabled], fieldset[disabled]
 input[type="checkbox"],
@@ -1500,6 +1897,7 @@ input[type="checkbox"],
 .checkbox-inline {
   cursor: not-allowed; }
 
+/* line 930, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .input-sm {
   height: 30px;
   padding: 5px 10px;
@@ -1507,14 +1905,17 @@ input[type="checkbox"],
   line-height: 1.5;
   border-radius: 3px; }
 
+/* line 938, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 select.input-sm {
   height: 30px;
   line-height: 30px; }
 
+/* line 943, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 textarea.input-sm,
 select[multiple].input-sm {
   height: auto; }
 
+/* line 930, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .input-lg {
   height: 46px;
   padding: 10px 16px;
@@ -1522,18 +1923,23 @@ select[multiple].input-sm {
   line-height: 1.33;
   border-radius: 6px; }
 
+/* line 938, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 select.input-lg {
   height: 46px;
   line-height: 46px; }
 
+/* line 943, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 textarea.input-lg,
 select[multiple].input-lg {
   height: auto; }
 
+/* line 264, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback {
   position: relative; }
+  /* line 269, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .has-feedback .form-control {
     padding-right: 42.5px; }
+  /* line 274, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .has-feedback .form-control-feedback {
     position: absolute;
     top: 25px;
@@ -1544,6 +1950,7 @@ select[multiple].input-lg {
     line-height: 34px;
     text-align: center; }
 
+/* line 870, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-success .help-block,
 .has-success .control-label,
 .has-success .radio,
@@ -1551,21 +1958,26 @@ select[multiple].input-lg {
 .has-success .radio-inline,
 .has-success .checkbox-inline {
   color: #3c763d; }
+/* line 879, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-success .form-control {
   border-color: #3c763d;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 882, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .has-success .form-control:focus {
     border-color: #2b542c;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
+/* line 889, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-success .input-group-addon {
   color: #3c763d;
   border-color: #3c763d;
   background-color: #dff0d8; }
+/* line 895, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-success .form-control-feedback {
   color: #3c763d; }
 
+/* line 870, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -1573,21 +1985,26 @@ select[multiple].input-lg {
 .has-warning .radio-inline,
 .has-warning .checkbox-inline {
   color: #8a6d3b; }
+/* line 879, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-warning .form-control {
   border-color: #8a6d3b;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 882, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .has-warning .form-control:focus {
     border-color: #66512c;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
+/* line 889, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-warning .input-group-addon {
   color: #8a6d3b;
   border-color: #8a6d3b;
   background-color: #fcf8e3; }
+/* line 895, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-warning .form-control-feedback {
   color: #8a6d3b; }
 
+/* line 870, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-error .help-block,
 .has-error .control-label,
 .has-error .radio,
@@ -1595,24 +2012,30 @@ select[multiple].input-lg {
 .has-error .radio-inline,
 .has-error .checkbox-inline {
   color: #a94442; }
+/* line 879, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-error .form-control {
   border-color: #a94442;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 882, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .has-error .form-control:focus {
     border-color: #843534;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
+/* line 889, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-error .input-group-addon {
   color: #a94442;
   border-color: #a94442;
   background-color: #f2dede; }
+/* line 895, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .has-error .form-control-feedback {
   color: #a94442; }
 
+/* line 303, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-control-static {
   margin-bottom: 0; }
 
+/* line 313, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .help-block {
   display: block;
   margin-top: 5px;
@@ -1620,19 +2043,24 @@ select[multiple].input-lg {
   color: #737373; }
 
 @media (min-width: 768px) {
+  /* line 338, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-group, .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle; }
+  /* line 345, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .form-control, .navbar-form .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle; }
+  /* line 351, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .input-group > .form-control, .navbar-form .input-group > .form-control {
     width: 100%; }
+  /* line 355, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .control-label, .navbar-form .control-label {
     margin-bottom: 0;
     vertical-align: middle; }
+  /* line 363, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .radio, .navbar-form .radio,
   .form-inline .checkbox,
   .navbar-form .checkbox {
@@ -1641,14 +2069,17 @@ select[multiple].input-lg {
     margin-bottom: 0;
     padding-left: 0;
     vertical-align: middle; }
+  /* line 371, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .radio input[type="radio"], .navbar-form .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"],
   .navbar-form .checkbox input[type="checkbox"] {
     float: none;
     margin-left: 0; }
+  /* line 381, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-inline .has-feedback .form-control-feedback, .navbar-form .has-feedback .form-control-feedback {
     top: 0; } }
 
+/* line 396, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .control-label,
 .form-horizontal .radio,
 .form-horizontal .checkbox,
@@ -1657,26 +2088,34 @@ select[multiple].input-lg {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 7px; }
+/* line 407, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
   min-height: 27px; }
+/* line 413, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group {
   margin-left: -15px;
   margin-right: -15px; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .form-horizontal .form-group:before, .form-horizontal .form-group:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .form-horizontal .form-group:after {
     clear: both; }
+/* line 417, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-control-static {
   padding-top: 7px; }
 @media (min-width: 768px) {
+  /* line 423, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right; } }
+/* line 432, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
   right: 15px; }
 
+/* line 9, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -1695,18 +2134,22 @@ select[multiple].input-lg {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
+  /* line 30, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn:hover, .btn:focus {
     color: #333;
     text-decoration: none; }
+  /* line 36, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn:active, .btn.active {
     outline: 0;
     background-image: none;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  /* line 43, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn.disabled, .btn[disabled], fieldset[disabled] .btn {
     cursor: not-allowed;
     pointer-events: none;
@@ -1715,207 +2158,265 @@ select[multiple].input-lg {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
+/* line 57, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
   color: #333;
   background-color: #fff;
   border-color: #ccc; }
+  /* line 505, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
     color: #333;
     background-color: #ebebeb;
     border-color: #adadad; }
+  /* line 513, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-default.dropdown-toggle {
     color: #333;
     background-color: #ebebeb;
     border-color: #adadad; }
+  /* line 518, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-default:active, .btn-default.active {
     background-image: none; }
+  /* line 522, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-default.dropdown-toggle {
     background-image: none; }
+  /* line 528, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
     background-color: #fff;
     border-color: #ccc; }
+  /* line 538, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-default .badge {
     color: #fff;
     background-color: #333; }
 
+/* line 60, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
   background-color: #428bca;
   border-color: #357ebd; }
+  /* line 505, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
     color: #fff;
     background-color: #3276b1;
     border-color: #285e8e; }
+  /* line 513, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #3276b1;
     border-color: #285e8e; }
+  /* line 518, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-primary:active, .btn-primary.active {
     background-image: none; }
+  /* line 522, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-primary.dropdown-toggle {
     background-image: none; }
+  /* line 528, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
     background-color: #428bca;
     border-color: #357ebd; }
+  /* line 538, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-primary .badge {
     color: #428bca;
     background-color: #fff; }
 
+/* line 64, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c; }
+  /* line 505, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
     color: #fff;
     background-color: #47a447;
     border-color: #398439; }
+  /* line 513, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-success.dropdown-toggle {
     color: #fff;
     background-color: #47a447;
     border-color: #398439; }
+  /* line 518, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-success:active, .btn-success.active {
     background-image: none; }
+  /* line 522, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-success.dropdown-toggle {
     background-image: none; }
+  /* line 528, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
     background-color: #5cb85c;
     border-color: #4cae4c; }
+  /* line 538, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-success .badge {
     color: #5cb85c;
     background-color: #fff; }
 
+/* line 68, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da; }
+  /* line 505, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
     color: #fff;
     background-color: #39b3d7;
     border-color: #269abc; }
+  /* line 513, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-info.dropdown-toggle {
     color: #fff;
     background-color: #39b3d7;
     border-color: #269abc; }
+  /* line 518, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-info:active, .btn-info.active {
     background-image: none; }
+  /* line 522, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-info.dropdown-toggle {
     background-image: none; }
+  /* line 528, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
     background-color: #5bc0de;
     border-color: #46b8da; }
+  /* line 538, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-info .badge {
     color: #5bc0de;
     background-color: #fff; }
 
+/* line 72, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
   border-color: #eea236; }
+  /* line 505, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active {
     color: #fff;
     background-color: #ed9c28;
     border-color: #d58512; }
+  /* line 513, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-warning.dropdown-toggle {
     color: #fff;
     background-color: #ed9c28;
     border-color: #d58512; }
+  /* line 518, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-warning:active, .btn-warning.active {
     background-image: none; }
+  /* line 522, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-warning.dropdown-toggle {
     background-image: none; }
+  /* line 528, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
     background-color: #f0ad4e;
     border-color: #eea236; }
+  /* line 538, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-warning .badge {
     color: #f0ad4e;
     background-color: #fff; }
 
+/* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #d9534f;
   border-color: #d43f3a; }
+  /* line 505, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {
     color: #fff;
     background-color: #d2322d;
     border-color: #ac2925; }
+  /* line 513, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-danger.dropdown-toggle {
     color: #fff;
     background-color: #d2322d;
     border-color: #ac2925; }
+  /* line 518, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-danger:active, .btn-danger.active {
     background-image: none; }
+  /* line 522, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .open .btn-danger.dropdown-toggle {
     background-image: none; }
+  /* line 528, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
     background-color: #d9534f;
     border-color: #d43f3a; }
+  /* line 538, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .btn-danger .badge {
     color: #d9534f;
     background-color: #fff; }
 
+/* line 85, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
   color: #428bca;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0; }
+  /* line 91, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
     background-color: transparent;
     -webkit-box-shadow: none;
     box-shadow: none; }
+  /* line 98, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
     border-color: transparent; }
+  /* line 104, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
     color: #2a6496;
     text-decoration: underline;
     background-color: transparent; }
+  /* line 112, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link[disabled]:hover, .btn-link[disabled]:focus, fieldset[disabled] .btn-link:hover, fieldset[disabled] .btn-link:focus {
     color: #999999;
     text-decoration: none; }
 
+/* line 124, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-lg {
   padding: 10px 16px;
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px; }
 
+/* line 128, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-sm {
   padding: 5px 10px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px; }
 
+/* line 132, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-xs {
   padding: 1px 5px;
   font-size: 12px;
   line-height: 1.5;
   border-radius: 3px; }
 
+/* line 140, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
   padding-left: 0;
   padding-right: 0; }
 
+/* line 148, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px; }
 
+/* line 156, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
 
+/* line 10, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_component-animations.scss */
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear; }
+  /* line 13, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_component-animations.scss */
   .fade.in {
     opacity: 1; }
 
+/* line 18, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_component-animations.scss */
 .collapse {
   display: none; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_component-animations.scss */
   .collapse.in {
     display: block; }
 
+/* line 24, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_component-animations.scss */
 .collapsing {
   position: relative;
   height: 0;
@@ -1927,6 +2428,7 @@ input[type="button"].btn-block {
   font-family: 'Glyphicons Halflings';
   src: url("bootstrap/glyphicons-halflings-regular.eot");
   src: url("bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+/* line 21, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
   position: relative;
   top: 1px;
@@ -1938,655 +2440,871 @@ input[type="button"].btn-block {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* line 34, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-asterisk:before {
   content: "\2a"; }
 
+/* line 35, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-plus:before {
   content: "\2b"; }
 
+/* line 36, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-euro:before {
   content: "\20ac"; }
 
+/* line 37, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-minus:before {
   content: "\2212"; }
 
+/* line 38, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-cloud:before {
   content: "\2601"; }
 
+/* line 39, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-envelope:before {
   content: "\2709"; }
 
+/* line 40, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-pencil:before {
   content: "\270f"; }
 
+/* line 41, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-glass:before {
   content: "\e001"; }
 
+/* line 42, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-music:before {
   content: "\e002"; }
 
+/* line 43, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-search:before {
   content: "\e003"; }
 
+/* line 44, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-heart:before {
   content: "\e005"; }
 
+/* line 45, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-star:before {
   content: "\e006"; }
 
+/* line 46, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-star-empty:before {
   content: "\e007"; }
 
+/* line 47, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-user:before {
   content: "\e008"; }
 
+/* line 48, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-film:before {
   content: "\e009"; }
 
+/* line 49, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-th-large:before {
   content: "\e010"; }
 
+/* line 50, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-th:before {
   content: "\e011"; }
 
+/* line 51, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-th-list:before {
   content: "\e012"; }
 
+/* line 52, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-ok:before {
   content: "\e013"; }
 
+/* line 53, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-remove:before {
   content: "\e014"; }
 
+/* line 54, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-zoom-in:before {
   content: "\e015"; }
 
+/* line 55, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-zoom-out:before {
   content: "\e016"; }
 
+/* line 56, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-off:before {
   content: "\e017"; }
 
+/* line 57, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-signal:before {
   content: "\e018"; }
 
+/* line 58, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-cog:before {
   content: "\e019"; }
 
+/* line 59, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-trash:before {
   content: "\e020"; }
 
+/* line 60, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-home:before {
   content: "\e021"; }
 
+/* line 61, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-file:before {
   content: "\e022"; }
 
+/* line 62, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-time:before {
   content: "\e023"; }
 
+/* line 63, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-road:before {
   content: "\e024"; }
 
+/* line 64, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-download-alt:before {
   content: "\e025"; }
 
+/* line 65, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-download:before {
   content: "\e026"; }
 
+/* line 66, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-upload:before {
   content: "\e027"; }
 
+/* line 67, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-inbox:before {
   content: "\e028"; }
 
+/* line 68, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-play-circle:before {
   content: "\e029"; }
 
+/* line 69, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-repeat:before {
   content: "\e030"; }
 
+/* line 70, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-refresh:before {
   content: "\e031"; }
 
+/* line 71, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-list-alt:before {
   content: "\e032"; }
 
+/* line 72, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-lock:before {
   content: "\e033"; }
 
+/* line 73, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-flag:before {
   content: "\e034"; }
 
+/* line 74, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-headphones:before {
   content: "\e035"; }
 
+/* line 75, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-volume-off:before {
   content: "\e036"; }
 
+/* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-volume-down:before {
   content: "\e037"; }
 
+/* line 77, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-volume-up:before {
   content: "\e038"; }
 
+/* line 78, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-qrcode:before {
   content: "\e039"; }
 
+/* line 79, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-barcode:before {
   content: "\e040"; }
 
+/* line 80, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tag:before {
   content: "\e041"; }
 
+/* line 81, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tags:before {
   content: "\e042"; }
 
+/* line 82, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-book:before {
   content: "\e043"; }
 
+/* line 83, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-bookmark:before {
   content: "\e044"; }
 
+/* line 84, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-print:before {
   content: "\e045"; }
 
+/* line 85, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-camera:before {
   content: "\e046"; }
 
+/* line 86, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-font:before {
   content: "\e047"; }
 
+/* line 87, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-bold:before {
   content: "\e048"; }
 
+/* line 88, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-italic:before {
   content: "\e049"; }
 
+/* line 89, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-text-height:before {
   content: "\e050"; }
 
+/* line 90, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-text-width:before {
   content: "\e051"; }
 
+/* line 91, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-align-left:before {
   content: "\e052"; }
 
+/* line 92, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-align-center:before {
   content: "\e053"; }
 
+/* line 93, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-align-right:before {
   content: "\e054"; }
 
+/* line 94, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-align-justify:before {
   content: "\e055"; }
 
+/* line 95, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-list:before {
   content: "\e056"; }
 
+/* line 96, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-indent-left:before {
   content: "\e057"; }
 
+/* line 97, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-indent-right:before {
   content: "\e058"; }
 
+/* line 98, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-facetime-video:before {
   content: "\e059"; }
 
+/* line 99, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-picture:before {
   content: "\e060"; }
 
+/* line 100, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-map-marker:before {
   content: "\e062"; }
 
+/* line 101, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-adjust:before {
   content: "\e063"; }
 
+/* line 102, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tint:before {
   content: "\e064"; }
 
+/* line 103, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-edit:before {
   content: "\e065"; }
 
+/* line 104, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-share:before {
   content: "\e066"; }
 
+/* line 105, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-check:before {
   content: "\e067"; }
 
+/* line 106, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-move:before {
   content: "\e068"; }
 
+/* line 107, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-step-backward:before {
   content: "\e069"; }
 
+/* line 108, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-fast-backward:before {
   content: "\e070"; }
 
+/* line 109, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-backward:before {
   content: "\e071"; }
 
+/* line 110, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-play:before {
   content: "\e072"; }
 
+/* line 111, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-pause:before {
   content: "\e073"; }
 
+/* line 112, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-stop:before {
   content: "\e074"; }
 
+/* line 113, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-forward:before {
   content: "\e075"; }
 
+/* line 114, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-fast-forward:before {
   content: "\e076"; }
 
+/* line 115, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-step-forward:before {
   content: "\e077"; }
 
+/* line 116, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-eject:before {
   content: "\e078"; }
 
+/* line 117, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-left:before {
   content: "\e079"; }
 
+/* line 118, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-right:before {
   content: "\e080"; }
 
+/* line 119, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-plus-sign:before {
   content: "\e081"; }
 
+/* line 120, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-minus-sign:before {
   content: "\e082"; }
 
+/* line 121, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-remove-sign:before {
   content: "\e083"; }
 
+/* line 122, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-ok-sign:before {
   content: "\e084"; }
 
+/* line 123, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-question-sign:before {
   content: "\e085"; }
 
+/* line 124, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-info-sign:before {
   content: "\e086"; }
 
+/* line 125, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-screenshot:before {
   content: "\e087"; }
 
+/* line 126, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-remove-circle:before {
   content: "\e088"; }
 
+/* line 127, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-ok-circle:before {
   content: "\e089"; }
 
+/* line 128, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-ban-circle:before {
   content: "\e090"; }
 
+/* line 129, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-left:before {
   content: "\e091"; }
 
+/* line 130, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-right:before {
   content: "\e092"; }
 
+/* line 131, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-up:before {
   content: "\e093"; }
 
+/* line 132, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-arrow-down:before {
   content: "\e094"; }
 
+/* line 133, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-share-alt:before {
   content: "\e095"; }
 
+/* line 134, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-resize-full:before {
   content: "\e096"; }
 
+/* line 135, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-resize-small:before {
   content: "\e097"; }
 
+/* line 136, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-exclamation-sign:before {
   content: "\e101"; }
 
+/* line 137, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-gift:before {
   content: "\e102"; }
 
+/* line 138, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-leaf:before {
   content: "\e103"; }
 
+/* line 139, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-fire:before {
   content: "\e104"; }
 
+/* line 140, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-eye-open:before {
   content: "\e105"; }
 
+/* line 141, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-eye-close:before {
   content: "\e106"; }
 
+/* line 142, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-warning-sign:before {
   content: "\e107"; }
 
+/* line 143, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-plane:before {
   content: "\e108"; }
 
+/* line 144, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-calendar:before {
   content: "\e109"; }
 
+/* line 145, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-random:before {
   content: "\e110"; }
 
+/* line 146, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-comment:before {
   content: "\e111"; }
 
+/* line 147, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-magnet:before {
   content: "\e112"; }
 
+/* line 148, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-up:before {
   content: "\e113"; }
 
+/* line 149, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-chevron-down:before {
   content: "\e114"; }
 
+/* line 150, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-retweet:before {
   content: "\e115"; }
 
+/* line 151, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-shopping-cart:before {
   content: "\e116"; }
 
+/* line 152, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-folder-close:before {
   content: "\e117"; }
 
+/* line 153, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-folder-open:before {
   content: "\e118"; }
 
+/* line 154, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-resize-vertical:before {
   content: "\e119"; }
 
+/* line 155, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-resize-horizontal:before {
   content: "\e120"; }
 
+/* line 156, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-hdd:before {
   content: "\e121"; }
 
+/* line 157, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-bullhorn:before {
   content: "\e122"; }
 
+/* line 158, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-bell:before {
   content: "\e123"; }
 
+/* line 159, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-certificate:before {
   content: "\e124"; }
 
+/* line 160, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-thumbs-up:before {
   content: "\e125"; }
 
+/* line 161, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-thumbs-down:before {
   content: "\e126"; }
 
+/* line 162, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-hand-right:before {
   content: "\e127"; }
 
+/* line 163, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-hand-left:before {
   content: "\e128"; }
 
+/* line 164, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-hand-up:before {
   content: "\e129"; }
 
+/* line 165, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-hand-down:before {
   content: "\e130"; }
 
+/* line 166, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-right:before {
   content: "\e131"; }
 
+/* line 167, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-left:before {
   content: "\e132"; }
 
+/* line 168, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-up:before {
   content: "\e133"; }
 
+/* line 169, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-circle-arrow-down:before {
   content: "\e134"; }
 
+/* line 170, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-globe:before {
   content: "\e135"; }
 
+/* line 171, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-wrench:before {
   content: "\e136"; }
 
+/* line 172, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tasks:before {
   content: "\e137"; }
 
+/* line 173, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-filter:before {
   content: "\e138"; }
 
+/* line 174, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-briefcase:before {
   content: "\e139"; }
 
+/* line 175, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-fullscreen:before {
   content: "\e140"; }
 
+/* line 176, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-dashboard:before {
   content: "\e141"; }
 
+/* line 177, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-paperclip:before {
   content: "\e142"; }
 
+/* line 178, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-heart-empty:before {
   content: "\e143"; }
 
+/* line 179, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-link:before {
   content: "\e144"; }
 
+/* line 180, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-phone:before {
   content: "\e145"; }
 
+/* line 181, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-pushpin:before {
   content: "\e146"; }
 
+/* line 182, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-usd:before {
   content: "\e148"; }
 
+/* line 183, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-gbp:before {
   content: "\e149"; }
 
+/* line 184, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort:before {
   content: "\e150"; }
 
+/* line 185, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-alphabet:before {
   content: "\e151"; }
 
+/* line 186, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-alphabet-alt:before {
   content: "\e152"; }
 
+/* line 187, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-order:before {
   content: "\e153"; }
 
+/* line 188, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-order-alt:before {
   content: "\e154"; }
 
+/* line 189, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-attributes:before {
   content: "\e155"; }
 
+/* line 190, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sort-by-attributes-alt:before {
   content: "\e156"; }
 
+/* line 191, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-unchecked:before {
   content: "\e157"; }
 
+/* line 192, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-expand:before {
   content: "\e158"; }
 
+/* line 193, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-collapse-down:before {
   content: "\e159"; }
 
+/* line 194, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-collapse-up:before {
   content: "\e160"; }
 
+/* line 195, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-log-in:before {
   content: "\e161"; }
 
+/* line 196, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-flash:before {
   content: "\e162"; }
 
+/* line 197, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-log-out:before {
   content: "\e163"; }
 
+/* line 198, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-new-window:before {
   content: "\e164"; }
 
+/* line 199, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-record:before {
   content: "\e165"; }
 
+/* line 200, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-save:before {
   content: "\e166"; }
 
+/* line 201, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-open:before {
   content: "\e167"; }
 
+/* line 202, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-saved:before {
   content: "\e168"; }
 
+/* line 203, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-import:before {
   content: "\e169"; }
 
+/* line 204, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-export:before {
   content: "\e170"; }
 
+/* line 205, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-send:before {
   content: "\e171"; }
 
+/* line 206, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-disk:before {
   content: "\e172"; }
 
+/* line 207, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-saved:before {
   content: "\e173"; }
 
+/* line 208, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-remove:before {
   content: "\e174"; }
 
+/* line 209, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-save:before {
   content: "\e175"; }
 
+/* line 210, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-floppy-open:before {
   content: "\e176"; }
 
+/* line 211, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-credit-card:before {
   content: "\e177"; }
 
+/* line 212, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-transfer:before {
   content: "\e178"; }
 
+/* line 213, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-cutlery:before {
   content: "\e179"; }
 
+/* line 214, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-header:before {
   content: "\e180"; }
 
+/* line 215, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-compressed:before {
   content: "\e181"; }
 
+/* line 216, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-earphone:before {
   content: "\e182"; }
 
+/* line 217, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-phone-alt:before {
   content: "\e183"; }
 
+/* line 218, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tower:before {
   content: "\e184"; }
 
+/* line 219, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-stats:before {
   content: "\e185"; }
 
+/* line 220, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sd-video:before {
   content: "\e186"; }
 
+/* line 221, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-hd-video:before {
   content: "\e187"; }
 
+/* line 222, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-subtitles:before {
   content: "\e188"; }
 
+/* line 223, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sound-stereo:before {
   content: "\e189"; }
 
+/* line 224, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sound-dolby:before {
   content: "\e190"; }
 
+/* line 225, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sound-5-1:before {
   content: "\e191"; }
 
+/* line 226, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sound-6-1:before {
   content: "\e192"; }
 
+/* line 227, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-sound-7-1:before {
   content: "\e193"; }
 
+/* line 228, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-copyright-mark:before {
   content: "\e194"; }
 
+/* line 229, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-registration-mark:before {
   content: "\e195"; }
 
+/* line 230, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-cloud-download:before {
   content: "\e197"; }
 
+/* line 231, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-cloud-upload:before {
   content: "\e198"; }
 
+/* line 232, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tree-conifer:before {
   content: "\e199"; }
 
+/* line 233, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon-tree-deciduous:before {
   content: "\e200"; }
 
+/* line 9, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .nav {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .nav:before, .nav:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .nav:after {
     clear: both; }
+  /* line 15, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav > li {
     position: relative;
     display: block; }
+    /* line 19, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav > li > a {
       position: relative;
       display: block;
       padding: 10px 15px; }
+      /* line 23, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
       .nav > li > a:hover, .nav > li > a:focus {
         text-decoration: none;
         background-color: #eeeeee; }
+    /* line 31, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav > li.disabled > a {
       color: #999999; }
+      /* line 34, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
         color: #999999;
         text-decoration: none;
         background-color: transparent;
         cursor: not-allowed; }
+  /* line 46, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
     border-color: #428bca; }
+  /* line 59, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
     margin: 9px 0;
     overflow: hidden;
     background-color: #e5e5e5; }
+  /* line 66, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav > li > a > img {
     max-width: none; }
 
+/* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs {
   border-bottom: 1px solid #ddd; }
+  /* line 78, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs > li {
     float: left;
     margin-bottom: -1px; }
+    /* line 84, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li > a {
       margin-right: 2px;
       line-height: 1.42857;
       border: 1px solid transparent;
       border-radius: 4px 4px 0 0; }
+      /* line 89, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
       .nav-tabs > li > a:hover {
         border-color: #eeeeee #eeeeee #ddd; }
+    /* line 96, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
       background-color: #fff;
@@ -2594,44 +3312,59 @@ input[type="button"].btn-block {
       border-bottom-color: transparent;
       cursor: default; }
 
+/* line 118, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .nav-pills > li {
   float: left; }
+  /* line 122, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li > a {
     border-radius: 4px; }
+  /* line 125, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li + li {
     margin-left: 2px; }
+  /* line 131, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
     background-color: #428bca; }
 
+/* line 144, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .nav-stacked > li {
   float: none; }
+  /* line 146, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-stacked > li + li {
     margin-top: 2px;
     margin-left: 0; }
 
+/* line 160, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .nav-justified, .nav-tabs.nav-justified {
   width: 100%; }
+  /* line 163, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     float: none; }
+    /* line 165, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
       text-align: center;
       margin-bottom: 5px; }
+  /* line 171, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-justified > .dropdown .dropdown-menu {
     top: auto;
     left: auto; }
   @media (min-width: 768px) {
+    /* line 177, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav-justified > li, .nav-tabs.nav-justified > li {
       display: table-cell;
       width: 1%; }
+      /* line 180, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
       .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
         margin-bottom: 0; } }
 
+/* line 190, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs-justified, .nav-tabs.nav-justified {
   border-bottom: 0; }
+  /* line 193, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     margin-right: 0;
     border-radius: 4px; }
+  /* line 199, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:hover,
@@ -2639,9 +3372,11 @@ input[type="button"].btn-block {
   .nav-tabs.nav-justified > .active > a:focus {
     border: 1px solid #ddd; }
   @media (min-width: 768px) {
+    /* line 206, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
       border-bottom: 1px solid #ddd;
       border-radius: 4px 4px 0 0; }
+    /* line 210, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
     .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
     .nav-tabs-justified > .active > a:hover,
     .nav-tabs.nav-justified > .active > a:hover,
@@ -2649,39 +3384,50 @@ input[type="button"].btn-block {
     .nav-tabs.nav-justified > .active > a:focus {
       border-bottom-color: #fff; } }
 
+/* line 224, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
   display: none; }
+/* line 227, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .tab-content > .active {
   display: block; }
 
+/* line 237, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
+/* line 11, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar {
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar:before, .navbar:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar:after {
     clear: both; }
   @media (min-width: 768px) {
+    /* line 11, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar {
       border-radius: 4px; } }
 
+/* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .navbar-header:before, .navbar-header:after {
   content: " ";
   display: table; }
+/* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .navbar-header:after {
   clear: both; }
 @media (min-width: 768px) {
+  /* line 31, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-header {
     float: left; } }
 
+/* line 50, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-collapse {
   max-height: 340px;
   overflow-x: visible;
@@ -2691,30 +3437,38 @@ input[type="button"].btn-block {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-collapse:before, .navbar-collapse:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .navbar-collapse:after {
     clear: both; }
+  /* line 60, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-collapse.in {
     overflow-y: auto; }
   @media (min-width: 768px) {
+    /* line 50, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-collapse {
       width: auto;
       border-top: 0;
       -webkit-box-shadow: none;
       box-shadow: none; }
+      /* line 69, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-collapse.collapse {
         display: block !important;
         height: auto !important;
         padding-bottom: 0;
         overflow: visible !important; }
+      /* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-collapse.in {
         overflow-y: visible; }
+      /* line 82, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
         padding-left: 0;
         padding-right: 0; } }
 
+/* line 98, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .container > .navbar-header,
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
@@ -2722,6 +3476,7 @@ input[type="button"].btn-block {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
+    /* line 98, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .container > .navbar-header,
     .container > .navbar-collapse,
     .container-fluid > .navbar-header,
@@ -2729,13 +3484,16 @@ input[type="button"].btn-block {
       margin-right: 0;
       margin-left: 0; } }
 
+/* line 118, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-static-top {
   z-index: 1000;
   border-width: 0 0 1px; }
   @media (min-width: 768px) {
+    /* line 118, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-static-top {
       border-radius: 0; } }
 
+/* line 128, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   position: fixed;
@@ -2743,31 +3501,38 @@ input[type="button"].btn-block {
   left: 0;
   z-index: 1030; }
   @media (min-width: 768px) {
+    /* line 128, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-fixed-top,
     .navbar-fixed-bottom {
       border-radius: 0; } }
 
+/* line 140, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px; }
 
+/* line 144, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-bottom {
   bottom: 0;
   margin-bottom: 0;
   border-width: 1px 0 0; }
 
+/* line 153, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
   height: 50px; }
+  /* line 160, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
   @media (min-width: 768px) {
+    /* line 166, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
       margin-left: -15px; } }
 
+/* line 179, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-toggle {
   position: relative;
   float: right;
@@ -2779,26 +3544,33 @@ input[type="button"].btn-block {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px; }
+  /* line 192, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle:focus {
     outline: none; }
+  /* line 197, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle .icon-bar {
     display: block;
     width: 22px;
     height: 2px;
     border-radius: 1px; }
+  /* line 203, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-toggle .icon-bar + .icon-bar {
     margin-top: 4px; }
   @media (min-width: 768px) {
+    /* line 179, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-toggle {
       display: none; } }
 
+/* line 218, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav {
   margin: 7.5px -15px; }
+  /* line 221, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
     padding-top: 10px;
     padding-bottom: 10px;
     line-height: 20px; }
   @media (max-width: 767px) {
+    /* line 229, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-nav .open .dropdown-menu {
       position: static;
       float: none;
@@ -2808,31 +3580,41 @@ input[type="button"].btn-block {
       border: 0;
       -webkit-box-shadow: none;
       box-shadow: none; }
+      /* line 237, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-nav .open .dropdown-menu > li > a,
       .navbar-nav .open .dropdown-menu .dropdown-header {
         padding: 5px 15px 5px 25px; }
+      /* line 241, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-nav .open .dropdown-menu > li > a {
         line-height: 20px; }
+        /* line 243, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
         .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
           background-image: none; } }
   @media (min-width: 768px) {
+    /* line 218, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-nav {
       float: left;
       margin: 0; }
+      /* line 256, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-nav > li {
         float: left; }
+        /* line 258, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
         .navbar-nav > li > a {
           padding-top: 15px;
           padding-bottom: 15px; }
+      /* line 264, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-nav.navbar-right:last-child {
         margin-right: -15px; } }
 
 @media (min-width: 768px) {
+  /* line 278, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-left {
     float: left !important; }
 
+  /* line 281, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-right {
     float: right !important; } }
+/* line 292, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-form {
   margin-left: -15px;
   margin-right: -15px;
@@ -2844,9 +3626,11 @@ input[type="button"].btn-block {
   margin-top: 8px;
   margin-bottom: 8px; }
   @media (max-width: 767px) {
+    /* line 304, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-form .form-group {
       margin-bottom: 5px; } }
   @media (min-width: 768px) {
+    /* line 292, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-form {
       width: auto;
       border: 0;
@@ -2856,143 +3640,193 @@ input[type="button"].btn-block {
       padding-bottom: 0;
       -webkit-box-shadow: none;
       box-shadow: none; }
+      /* line 324, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-form.navbar-right:last-child {
         margin-right: -15px; } }
 
+/* line 334, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav > li > .dropdown-menu {
   margin-top: 0;
   border-top-right-radius: 0;
   border-top-left-radius: 0; }
 
+/* line 339, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
+/* line 348, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn {
   margin-top: 8px;
   margin-bottom: 8px; }
+  /* line 351, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-btn.btn-sm {
     margin-top: 10px;
     margin-bottom: 10px; }
+  /* line 354, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-btn.btn-xs {
     margin-top: 14px;
     margin-bottom: 14px; }
 
+/* line 364, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-text {
   margin-top: 15px;
   margin-bottom: 15px; }
   @media (min-width: 768px) {
+    /* line 364, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-text {
       float: left;
       margin-left: 15px;
       margin-right: 15px; }
+      /* line 373, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-text.navbar-right:last-child {
         margin-right: 0; } }
 
+/* line 383, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7; }
+  /* line 387, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
     color: #777; }
+    /* line 389, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
       color: #5e5e5e;
       background-color: transparent; }
+  /* line 396, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-text {
     color: #777; }
+  /* line 401, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > li > a {
     color: #777; }
+    /* line 404, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #333;
       background-color: transparent; }
+  /* line 411, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
     background-color: #e7e7e7; }
+  /* line 419, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
     background-color: transparent; }
+  /* line 428, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-toggle {
     border-color: #ddd; }
+    /* line 430, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
       background-color: #ddd; }
+    /* line 434, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-toggle .icon-bar {
       background-color: #888; }
+  /* line 439, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
     border-color: #e7e7e7; }
+  /* line 448, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
     background-color: #e7e7e7;
     color: #555; }
   @media (max-width: 767px) {
+    /* line 459, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
       color: #777; }
+      /* line 461, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333;
         background-color: transparent; }
+    /* line 468, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
       background-color: #e7e7e7; }
+    /* line 476, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
       background-color: transparent; } }
+  /* line 492, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-link {
     color: #777; }
+    /* line 494, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-link:hover {
       color: #333; }
 
+/* line 503, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse {
   background-color: #222;
   border-color: #090909; }
+  /* line 507, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-brand {
     color: #999999; }
+    /* line 509, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
       color: #fff;
       background-color: transparent; }
+  /* line 516, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-text {
     color: #999999; }
+  /* line 521, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > li > a {
     color: #999999; }
+    /* line 524, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
       color: #fff;
       background-color: transparent; }
+  /* line 531, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
     background-color: #090909; }
+  /* line 539, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
     color: #444;
     background-color: transparent; }
+  /* line 549, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-toggle {
     border-color: #333; }
+    /* line 551, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
       background-color: #333; }
+    /* line 555, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-toggle .icon-bar {
       background-color: #fff; }
+  /* line 560, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
     border-color: #101010; }
+  /* line 568, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #090909;
     color: #fff; }
   @media (max-width: 767px) {
+    /* line 579, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
       border-color: #090909; }
+    /* line 582, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
       background-color: #090909; }
+    /* line 585, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
       color: #999999; }
+      /* line 587, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #fff;
         background-color: transparent; }
+    /* line 594, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #fff;
       background-color: #090909; }
+    /* line 602, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #444;
       background-color: transparent; } }
+  /* line 613, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-link {
     color: #999999; }
+    /* line 615, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-link:hover {
       color: #fff; }
 
+/* line 5, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
 .label {
   display: inline;
   padding: .2em .6em .3em;
@@ -3004,46 +3838,62 @@ input[type="button"].btn-block {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em; }
+  /* line 19, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
   .label[href]:hover, .label[href]:focus {
     color: #fff;
     text-decoration: none;
     cursor: pointer; }
+  /* line 28, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
   .label:empty {
     display: none; }
+  /* line 33, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
   .btn .label {
     position: relative;
     top: -1px; }
 
+/* line 42, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
 .label-default {
   background-color: #999999; }
+  /* line 582, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .label-default[href]:hover, .label-default[href]:focus {
     background-color: gray; }
 
+/* line 46, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
   background-color: #428bca; }
+  /* line 582, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .label-primary[href]:hover, .label-primary[href]:focus {
     background-color: #3071a9; }
 
+/* line 50, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
   background-color: #5cb85c; }
+  /* line 582, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .label-success[href]:hover, .label-success[href]:focus {
     background-color: #449d44; }
 
+/* line 54, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
   background-color: #5bc0de; }
+  /* line 582, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .label-info[href]:hover, .label-info[href]:focus {
     background-color: #31b0d5; }
 
+/* line 58, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
 .label-warning {
   background-color: #f0ad4e; }
+  /* line 582, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .label-warning[href]:hover, .label-warning[href]:focus {
     background-color: #ec971f; }
 
+/* line 62, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_labels.scss */
 .label-danger {
   background-color: #d9534f; }
+  /* line 582, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .label-danger[href]:hover, .label-danger[href]:focus {
     background-color: #c9302c; }
 
+/* line 7, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_badges.scss */
 .badge {
   display: inline-block;
   min-width: 10px;
@@ -3057,28 +3907,35 @@ input[type="button"].btn-block {
   text-align: center;
   background-color: #999999;
   border-radius: 10px; }
+  /* line 22, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_badges.scss */
   .badge:empty {
     display: none; }
+  /* line 27, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_badges.scss */
   .btn .badge {
     position: relative;
     top: -1px; }
+  /* line 31, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_badges.scss */
   .btn-xs .badge {
     top: 0;
     padding: 1px 5px; }
 
+/* line 39, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_badges.scss */
 a.badge:hover, a.badge:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer; }
 
+/* line 48, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_badges.scss */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
   color: #428bca;
   background-color: #fff; }
 
+/* line 53, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_badges.scss */
 .nav-pills > li > a > .badge {
   margin-left: 3px; }
 
+/* line 6, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_close.scss */
 .close {
   float: right;
   font-size: 21px;
@@ -3088,6 +3945,7 @@ a.list-group-item.active > .badge,
   text-shadow: 0 1px 0 #fff;
   opacity: 0.2;
   filter: alpha(opacity=20); }
+  /* line 15, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_close.scss */
   .close:hover, .close:focus {
     color: #000;
     text-decoration: none;
@@ -3095,6 +3953,7 @@ a.list-group-item.active > .badge,
     opacity: 0.5;
     filter: alpha(opacity=50); }
 
+/* line 29, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_close.scss */
 button.close {
   padding: 0;
   cursor: pointer;
@@ -3102,9 +3961,11 @@ button.close {
   border: 0;
   -webkit-appearance: none; }
 
+/* line 11, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-open {
   overflow: hidden; }
 
+/* line 16, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal {
   display: none;
   overflow: auto;
@@ -3117,22 +3978,26 @@ button.close {
   z-index: 1050;
   -webkit-overflow-scrolling: touch;
   outline: 0; }
+  /* line 33, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal.fade .modal-dialog {
     -webkit-transform: translate(0, -25%);
     -ms-transform: translate(0, -25%);
     transform: translate(0, -25%);
     -webkit-transition: -webkit-transform 0.3s ease-out;
     transition: transform 0.3s ease-out; }
+  /* line 37, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal.in .modal-dialog {
     -webkit-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
     transform: translate(0, 0); }
 
+/* line 41, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-dialog {
   position: relative;
   width: auto;
   margin: 10px; }
 
+/* line 48, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-content {
   position: relative;
   background-color: #fff;
@@ -3145,6 +4010,7 @@ button.close {
   background-clip: padding-box;
   outline: none; }
 
+/* line 61, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -3153,87 +4019,112 @@ button.close {
   left: 0;
   z-index: 1040;
   background-color: #000; }
+  /* line 70, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-backdrop.fade {
     opacity: 0;
     filter: alpha(opacity=0); }
+  /* line 71, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-backdrop.in {
     opacity: 0.5;
     filter: alpha(opacity=50); }
 
+/* line 76, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header {
   padding: 15px;
   border-bottom: 1px solid #e5e5e5;
   min-height: 16.42857px; }
 
+/* line 82, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-header .close {
   margin-top: -2px; }
 
+/* line 87, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-title {
   margin: 0;
   line-height: 1.42857; }
 
+/* line 94, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-body {
   position: relative;
   padding: 20px; }
 
+/* line 100, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
 .modal-footer {
   margin-top: 15px;
   padding: 19px 20px 20px;
   text-align: right;
   border-top: 1px solid #e5e5e5; }
+  /* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .modal-footer:before, .modal-footer:after {
     content: " ";
     display: table; }
+  /* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .modal-footer:after {
     clear: both; }
+  /* line 108, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-footer .btn + .btn {
     margin-left: 5px;
     margin-bottom: 0; }
+  /* line 113, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-footer .btn-group .btn + .btn {
     margin-left: -1px; }
+  /* line 117, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-footer .btn-block + .btn-block {
     margin-left: 0; }
 
 @media (min-width: 768px) {
+  /* line 125, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
     margin: 30px auto; }
 
+  /* line 129, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
 
+  /* line 134, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-sm {
     width: 300px; } }
 @media (min-width: 992px) {
+  /* line 138, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px; } }
+/* line 20, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table; }
+/* line 25, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .clearfix:after {
   clear: both; }
 
+/* line 12, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto; }
 
+/* line 15, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .pull-right {
   float: right !important; }
 
+/* line 18, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .pull-left {
   float: left !important; }
 
+/* line 27, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .hide {
   display: none !important; }
 
+/* line 30, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .show {
   display: block !important; }
 
+/* line 33, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .invisible {
   visibility: hidden; }
 
+/* line 36, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -3241,99 +4132,128 @@ button.close {
   background-color: transparent;
   border: 0; }
 
+/* line 45, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .hidden {
   display: none !important;
   visibility: hidden !important; }
 
+/* line 54, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_utilities.scss */
 .affix {
   position: fixed; }
 
 @-ms-viewport {
   width: device-width; }
+/* line 647, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .visible-xs, .visible-sm, .visible-md, .visible-lg {
   display: none !important; }
 
 @media (max-width: 767px) {
+  /* line 636, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .visible-xs {
     display: block !important; }
 
+  /* line 639, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   table.visible-xs {
     display: table; }
 
+  /* line 640, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   tr.visible-xs {
     display: table-row !important; }
 
+  /* line 641, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   th.visible-xs,
   td.visible-xs {
     display: table-cell !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  /* line 636, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .visible-sm {
     display: block !important; }
 
+  /* line 639, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   table.visible-sm {
     display: table; }
 
+  /* line 640, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   tr.visible-sm {
     display: table-row !important; }
 
+  /* line 641, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   th.visible-sm,
   td.visible-sm {
     display: table-cell !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* line 636, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .visible-md {
     display: block !important; }
 
+  /* line 639, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   table.visible-md {
     display: table; }
 
+  /* line 640, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   tr.visible-md {
     display: table-row !important; }
 
+  /* line 641, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   th.visible-md,
   td.visible-md {
     display: table-cell !important; } }
 @media (min-width: 1200px) {
+  /* line 636, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .visible-lg {
     display: block !important; }
 
+  /* line 639, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   table.visible-lg {
     display: table; }
 
+  /* line 640, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   tr.visible-lg {
     display: table-row !important; }
 
+  /* line 641, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important; } }
 @media (max-width: 767px) {
+  /* line 647, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .hidden-xs {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
+  /* line 647, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .hidden-sm {
     display: none !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* line 647, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .hidden-md {
     display: none !important; } }
 @media (min-width: 1200px) {
+  /* line 647, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .hidden-lg {
     display: none !important; } }
+/* line 647, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
 .visible-print {
   display: none !important; }
 
 @media print {
+  /* line 636, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .visible-print {
     display: block !important; }
 
+  /* line 639, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   table.visible-print {
     display: table; }
 
+  /* line 640, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   tr.visible-print {
     display: table-row !important; }
 
+  /* line 641, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   th.visible-print,
   td.visible-print {
     display: table-cell !important; } }
 @media print {
+  /* line 647, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/bootstrap/_mixins.scss */
   .hidden-print {
     display: none !important; } }
 /* /MEDIA QUERIES */
@@ -3354,6 +4274,7 @@ button.close {
   font-style: normal;
   font-weight: bold;
   src: url("../fonts/helveticaneue/HelveticaNeueW02-75Bold/HelveticaNeueW02-75Bold.eot?#iefix") format("eot"), url("../fonts/helveticaneue/HelveticaNeueW02-75Bold/HelveticaNeueW02-75Bold.woff") format("woff"), url("../fonts/helveticaneue/HelveticaNeueW02-75Bold/HelveticaNeueW02-75Bold.ttf") format("truetype"), url("../fonts/helveticaneue/HelveticaNeueW02-75Bold/HelveticaNeueW02-75Bold.svg") format("svg"); }
+/* line 39, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 body {
   font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif !important;
   font-weight: normal !important;
@@ -3361,24 +4282,29 @@ body {
   font-size: 13px !important;
   line-height: 1.5em !important; }
 
+/* line 47, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "HelveticaNeueW02-75Bold", Arial, sans-serif !important;
   font-weight: bold !important;
   font-style: normal !important; }
 
+/* line 53, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 h5 {
   color: #e8551e !important; }
 
+/* line 57, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 strong {
   font-family: "HelveticaNeueW02-75Bold", Arial, sans-serif !important;
   font-weight: bold !important;
   font-style: normal !important; }
 
+/* line 64, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .btn {
   font-family: "HelveticaNeueW01-65Medi", Arial, sans-serif !important;
   font-weight: normal !important;
   font-style: normal !important; }
 
+/* line 70, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .btn.red {
   color: #ffffff;
   background: #e8551e;
@@ -3396,25 +4322,30 @@ strong {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$corporativo', endColorstr='$secundario',GradientType=0 );
   /* IE6-9 */ }
 
+/* line 82, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .btn.btn-lg {
   padding: 13px 23px;
   padding-bottom: 15px;
   font-size: 24px;
   border-radius: 10px; }
 
+/* line 91, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .btn.btn-sm {
   padding: 2px 11px;
   padding-bottom: 6px;
   font-size: 12px;
   border-radius: 7px; }
+  /* line 99, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   .btn.btn-sm .glyphicon {
     margin-top: 3px;
     margin-left: 5px; }
 
+/* line 106, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .btn.red:active, .btn.red:focus {
   background: #d74a16;
   /* Old browsers */ }
 
+/* line 111, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .switch {
   position: relative;
   display: none;
@@ -3426,27 +4357,34 @@ strong {
   border-radius: 4px;
   border: 1px solid #2d3339 !important;
   background-color: rgba(45, 51, 57, 0.6) !important; }
+  /* line 123, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   .switch:hover {
     background-color: rgba(45, 51, 57, 0.8) !important; }
 
+/* line 129, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .switch .icon-bar {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px; }
 
+/* line 136, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .switch .icon-bar + .icon-bar {
   margin-top: 4px; }
 
+/* line 140, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .switch:hover, .switch:focus {
   background-color: rgba(0, 0, 0, 0.18); }
 
+/* line 144, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .switch.active {
   background-color: rgba(0, 0, 0, 0.3); }
 
+/* line 148, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .switch .icon-bar {
   background-color: #fff; }
 
+/* line 153, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .full-width,
 #testimonials,
 #preguntas {
@@ -3548,6 +4486,7 @@ strong {
 		}
 	}
 */
+/* line 256, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 header {
   width: 100%;
   height: 75px;
@@ -3561,20 +4500,25 @@ header {
   color: #ffffff;
   -webkit-transition: .4s all;
   transition: .4s all; }
+  /* line 274, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header.addbg {
     background-color: #2d3339;
     background-color: rgba(45, 51, 57, 0.9);
     height: 55px;
     padding-top: 10px; }
+  /* line 282, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header .social_media img {
     opacity: 0.8;
     -webkit-transition: .2s opacity;
     transition: .2s opacity; }
+  /* line 291, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header .social_media img:hover {
     opacity: 1; }
+  /* line 296, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header nav ul li {
     display: inline;
     margin-left: 5px; }
+  /* line 301, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header nav ul li a {
     display: inline-block;
     padding: 3px 10px;
@@ -3586,22 +4530,29 @@ header {
     border-radius: 3px;
     text-decoration: none;
     color: #ffffff; }
+  /* line 316, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header nav ul li a:hover {
     text-decoration: underline;
     color: #ffffff; }
+  /* line 321, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header nav ul li.cta a {
     background-color: rgba(45, 51, 57, 0.6); }
+  /* line 325, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header nav ul li.cta a:hover {
     background-color: rgba(45, 51, 57, 0.8); }
+  /* line 329, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header.addbg nav ul li.cta a {
     background-color: rgba(45, 51, 57, 0.9); }
+  /* line 333, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   header.addbg nav ul li.cta a:hover {
     background-color: #2d3339; }
 
+/* line 338, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 section {
   z-index: 9;
   display: block;
   position: relative; }
+  /* line 343, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   section h2 {
     color: #e8551e;
     font-family: "HelveticaNeueW01-65Medi", Arial, sans-serif !important;
@@ -3610,16 +4561,19 @@ section {
     background: url("../img/h2-line.jpg") 50% repeat-x;
     width: 100%;
     padding-bottom: 5px; }
+    /* line 352, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
     section h2 span {
       background-color: #fff;
       padding-right: 10px; }
 
+/* line 360, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 #cover {
   background-color: #2d3339;
   height: 560px;
   position: relative;
   overflow: hidden;
   background-attachment: fixed; }
+  /* line 367, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .sombra {
     width: 100%;
     height: 100%;
@@ -3629,6 +4583,7 @@ section {
     bottom: 0;
     left: 0;
     background-color: #2d3339; }
+  /* line 378, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .fullvideo {
     position: absolute;
     top: 0;
@@ -3637,23 +4592,28 @@ section {
     height: 560px;
     z-index: 1;
     overflow: auto; }
+    /* line 387, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
     #cover .fullvideo video {
       opacity: 0.7; }
+  /* line 392, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .container {
     position: relative;
     z-index: 2;
     height: 100%; }
+  /* line 398, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .container .hero {
     position: absolute;
     bottom: 15px;
     padding-bottom: 50px;
     z-index: 2; }
+  /* line 399, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .container .video {
     position: absolute;
     bottom: 15px;
     padding-bottom: 50px;
     right: 0;
     z-index: 2; }
+  /* line 401, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .container h1 {
     color: #ffffff !important;
     font-size: 48px !important;
@@ -3662,6 +4622,7 @@ section {
     font-weight: bold !important;
     font-style: normal !important;
     background: transparent !important; }
+  /* line 411, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .container h2 {
     color: #ded7d2 !important;
     font-size: 25px !important;
@@ -3673,28 +4634,37 @@ section {
     font-weight: normal !important;
     font-style: normal !important;
     background: transparent !important; }
+  /* line 424, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover .container .btn.red {
     margin-top: 15px; }
+  /* line 427, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover.captioncentrado .video {
     display: none; }
+  /* line 430, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #cover.captioncentrado .hero {
     text-align: center;
     width: 100%;
     bottom: 25px; }
+    /* line 435, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
     #cover.captioncentrado .hero h2 {
       padding-right: 0; }
 
+/* line 445, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 #introduction {
   background: #ebe9e5;
   z-index: 5;
   padding: 15px 0 10px 0; }
+  /* line 450, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #introduction .social_btn_toppost_item {
     display: inline-block; }
 
+/* line 455, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .full-width p {
   margin: 25px 0; }
+/* line 459, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .full-width .btn.btn-lg.red {
   margin: 15px 0; }
+/* line 463, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .full-width h6 {
   padding-left: 18px;
   width: 33%;
@@ -3712,11 +4682,14 @@ section {
   font-size: 21px !important;
   line-height: 1.3em !important; }
 
+/* line 484, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 #fotos {
   background-color: #2d3339;
   position: relative; }
+  /* line 489, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #fotos a:hover .foto .featurebox {
     background: #2d3339; }
+  /* line 493, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #fotos .foto {
     display: inline-block;
     width: 25%;
@@ -3729,6 +4702,7 @@ section {
     position: relative;
     opacity: 1;
     margin-top: -2px; }
+  /* line 509, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #fotos .foto .featurebox {
     background: rgba(45, 51, 57, 0.85);
     position: absolute;
@@ -3738,31 +4712,39 @@ section {
     max-width: 85%;
     -webkit-transition: .4s all;
     transition: .4s all; }
+  /* line 523, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #fotos .foto .featurebox h3 {
     font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif !important;
     font-weight: normal !important;
     font-style: normal !important;
     margin-top: 0px; }
+  /* line 530, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #fotos .foto .featurebox p {
     color: #dcd9d5;
     margin-top: 5px;
     margin-bottom: 15px; }
+  /* line 536, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #fotos .foto:nth-child(3) .featurebox, #fotos .foto:nth-child(4) .featurebox {
     left: 15px;
     right: auto; }
 
+/* line 545, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 #preguntas {
   line-height: 1.3em !important; }
+  /* line 548, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #preguntas h2 {
     margin-bottom: 15px; }
+  /* line 550, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #preguntas div {
     margin-bottom: 20px;
     position: relative; }
+  /* line 555, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #preguntas div span.img {
     display: inline-block;
     width: 60px;
     height: 62px;
     float: left; }
+  /* line 562, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #preguntas div .text {
     font-family: "HelveticaNeueW02-75Bold", Arial, sans-serif !important;
     font-weight: bold !important;
@@ -3770,10 +4752,12 @@ section {
     margin-left: 75px;
     padding-top: 10px;
     line-height: 1.2em !important; }
+  /* line 571, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   #preguntas div ul {
     margin-left: 80px;
     margin-top: 10px; }
 
+/* line 578, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 #final h2 {
   font-size: 60px;
   font-family: "HelveticaNeueW02-75Bold", Arial, sans-serif !important;
@@ -3870,6 +4854,7 @@ section {
 		}
 	}
 */
+/* line 678, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 .bg_img {
   -webkit-background-size: cover;
   background-size: cover;
@@ -3881,6 +4866,7 @@ section {
   position: relative;
   padding: 0px !important;
   color: #ffffff; }
+  /* line 693, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   .bg_img .shadow {
     background: url("../img/full_shadow.png");
     width: 100%;
@@ -3892,18 +4878,22 @@ section {
     background-repeat: no-repeat;
     color: #ffffff;
     background-position: center; }
+  /* line 708, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   .bg_img .container {
     position: relative;
     z-index: 2;
     padding-top: 30px;
     padding-bottom: 50px; }
+  /* line 715, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   .bg_img h2 {
     color: #ffffff;
     background: transparent; }
+    /* line 719, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
     .bg_img h2 span {
       background-color: transparent;
       padding-right: 10px; }
 
+/* line 727, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
 footer {
   background-color: #2d3339;
   color: #ffffff;
@@ -3911,79 +4901,100 @@ footer {
   padding-bottom: 55px;
   z-index: 10;
   position: relative; }
+  /* line 735, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   footer p {
     padding-left: 4px; }
+  /* line 739, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
   footer ul {
     list-style: none;
     text-align: right; }
+    /* line 743, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
     footer ul li:first-child a {
       font-family: "HelveticaNeueW02-75Bold", Arial, sans-serif !important;
       font-weight: bold !important;
       font-style: normal !important; }
+    /* line 749, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
     footer ul a {
       color: #ffffff; }
+      /* line 752, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/style.scss */
       footer ul a:hover {
         color: #ffffff; }
 
 /**************************************/
 /* MEDIA QUERIES */
 @media (max-width: 991px) {
+  /* line 5, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   body {
     font-size: 16px !important;
     line-height: 1.6em !important; }
 
+  /* line 10, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .social_media_wrapper {
     display: none; }
 
+  /* line 11, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .logo {
     float: left; }
 
+  /* line 13, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .btn.btn-lg {
     padding: 7px 20px;
     padding-bottom: 10px;
     font-size: 19px;
     border-radius: 8px; }
 
+  /* line 22, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .full-width,
   #testimonials,
   #preguntas {
     padding: 8px 0px 20px 0px; }
 
+  /* line 28, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #cover {
     height: 520px; }
 
+  /* line 33, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .full-width h6 {
     font-size: 16px !important;
     padding-left: 13px;
     margin-left: 10px; }
+  /* line 40, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .full-width.bg_img {
     background: #ebe9e5 !important;
     color: inherit; }
+    /* line 44, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     .full-width.bg_img .shadow {
       display: none; }
+    /* line 48, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     .full-width.bg_img .container {
       padding-top: 10px;
       padding-bottom: 20px; }
+    /* line 53, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     .full-width.bg_img h2 {
       color: #c80225;
       margin-bottom: 0;
       background: url("../img/h2-line-white.jpg") 50% repeat-x; }
+      /* line 58, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
       .full-width.bg_img h2 span {
         background-color: #ebe9e5;
         padding-right: 10px; }
 
+  /* line 68, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #fotos .foto {
     display: block !important;
     width: 100% !important;
     max-height: 300px !important; }
 
+  /* line 75, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #introduction {
     display: none;
     background: #ebe9e5;
     padding: 20px 0; }
+    /* line 81, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     #introduction .container {
       border-top: 0px;
       padding-top: 0px; }
+    /* line 86, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     #introduction .form-box {
       margin-top: 20px;
       padding: 10px 20px;
@@ -3991,41 +5002,53 @@ footer {
       margin: 0 auto;
       border-radius: 8px; }
 
+  /* line 98, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #preguntas div ul {
     margin-left: 35px;
     margin-top: 5px; }
 
+  /* line 104, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #final {
     display: none; }
 
+  /* line 106, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #testimonials {
     padding-top: 30px !important; }
+    /* line 109, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     #testimonials .director-quote {
       line-height: 1.4em;
       margin-bottom: 10px; }
+    /* line 114, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     #testimonials .circle {
       display: none; }
 
+  /* line 121, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   footer ul {
     padding-left: 5px;
     margin-top: 20px;
     text-align: left; } }
 @media (max-width: 767px) {
+  /* line 131, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   header {
     background-color: #2d3339;
     background-color: rgba(45, 51, 57, 0.9);
     height: 45px !important;
     padding-top: 5px !important; }
+    /* line 137, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     header .logo img {
       max-width: 200px;
       margin-top: 4px; }
+    /* line 142, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     header nav ul {
       display: none; }
+    /* line 146, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     header ul {
       margin-top: 8px !important;
       padding-top: 7px !important; }
+      /* line 150, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
       header ul:before {
         top: 34px !important; }
+    /* line 156, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     header .appear {
       display: block;
       background: #2d3339;
@@ -4035,6 +5058,7 @@ footer {
       padding: 10px 5px;
       -webkit-transition: .2s all;
       transition: .2s all; }
+      /* line 171, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
       header .appear:before {
         position: absolute;
         right: 35px;
@@ -4046,53 +5070,67 @@ footer {
         border-left: 6px solid transparent;
         content: '';
         height: 5px; }
+      /* line 184, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
       header .appear li {
         display: block;
         width: 100%;
         border-bottom: 1px solid #363d44; }
+        /* line 189, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
         header .appear li:last-child {
           border-bottom: 0px; }
+        /* line 193, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
         header .appear li a {
           display: block;
           width: 100%; }
 
   /* header ends */
+  /* line 203, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .full-width h6 {
     font-size: 14px !important;
     padding-left: 10px !important;
     margin-left: 8px !important;
     border-left: 2px solid #afbcc4; }
 
+  /* line 211, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   section h2 {
     font-size: 22px;
     padding-bottom: 0px;
     line-height: 1em; }
 
+  /* line 217, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #cover {
     height: 400px !important;
     background-attachment: scroll; }
+    /* line 221, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     #cover .container {
       padding-bottom: 0 !important; }
+      /* line 223, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
       #cover .container .hero {
         bottom: 15px;
         padding-bottom: 0px; }
+      /* line 224, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
       #cover .container h1 {
         font-size: 30px !important;
         line-height: 1.2em !important; }
+      /* line 225, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
       #cover .container h2 {
         font-size: 20px !important;
         margin-top: 12px !important; }
 
+  /* line 230, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   #testimonials .student_testimonial {
     font-size: 15px;
     line-height: 1.2em; }
+    /* line 235, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
     #testimonials .student_testimonial span p {
       width: 65%;
       line-height: 1.3em; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* line 251, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .social_media {
     padding-left: 20px; } }
 @media (max-width: 1380px) {
+  /* line 256, /Users/edomingob/Websites/AS-15-Landing/assets/stylesheets/_mediaqueries.scss */
   .full-width h6 {
     margin-right: 0px; } }
 /* /MEDIA QUERIES */
