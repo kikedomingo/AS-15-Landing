@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <title>{% block title %}Entradas Arenal Sound 2015 — ENTRADAS MÁS BARATAS — Un Festival por Dentro :: Entradas Baratas Festival Arenal Sound 2015{% endblock %}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <link rel="shortcut icon" href="http://festivalxdentro.com/core/wp-content/uploads/2013/08/ico.png"/>
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://festivalxdentro.com/core/wp-content/img_/icons/Icon-76@2x.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://festivalxdentro.com/core/wp-content/img_/icons/Icon@2x.png">
+      <link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://festivalxdentro.com/core/wp-content/img_/icons/Icon@2x.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://festivalxdentro.com/core/wp-content/img_/icons/Icon-76.png">
+      <link rel="apple-touch-icon-precomposed" href="http://festivalxdentro.com/core/wp-content/img_/icons/Icon.png">
+      <meta http-equiv="Content-Language" content="es"/>
+      <meta name="description" content="Compra tus entradas para el festival Arenal Sound 2015 con Un Festival por Dentro. PUNTO DE VENTA OFICIAL Ticketea."/>
+      <meta property="og:locale" content="es_ES"/>
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="Entradas Arenal Sound 2015 — Un Festival por Dentro"/>
+      <meta property="og:description" content="Compra tus entradas para el festival Arenal Sound 2015 con Un Festival por Dentro. PUNTO DE VENTA OFICIAL Ticketea."/>
+      <meta property="og:url" content="http://festivalxdentro.com/arenalsound/"/>
+      <meta property="og:site_name" content="Entradas Arenal Sound 2014 - Un Festival por Dentro"/>
+      <meta property="og:image" content="http://festivalxdentro.com/arenalsound/app/img/as.jpg"/>
+      <meta name="google-site-verification" content="F-qODukyVAbeBMizGam_UUeQIEPCq8ISpIR9EcUcYb4"/>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-37292563-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+
+      <script>(function() {
+        var _fbq = window._fbq || (window._fbq = []);
+        if (!_fbq.loaded) {
+          var fbds = document.createElement('script');
+          fbds.async = true;
+          fbds.src = '//connect.facebook.net/en_US/fbds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(fbds, s);
+          _fbq.loaded = true;
+        }
+        _fbq.push(['addPixelId', '789226657790738']);
+      })();
+      window._fbq = window._fbq || [];
+      window._fbq.push(['track', 'PixelInitialized', {}]);
+      </script>
+      <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=789226657790738&amp;ev=PixelInitialized" /></noscript>
+
+      {{ "style.css" | asset_url | stylesheet_tag }}
+      {% block styles %}{% endblock %}
+      <!--[if lt IE 9]>
+          <script src="app/js/html5shiv.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+    {% block content %}{% endblock %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    {{ "jquery.backgroundvideo.js" | asset_url | script_tag }}
+    {{ "jquery.smooth-scroll.min.js" | asset_url | script_tag }}
+    {{ "scripts.js" | asset_url | script_tag }}
+
+    <script language="javascript" type="text/javascript">
+      function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+      }
+
+      $('#legal-link').on('click', function() {
+        ga('send', 'event', 'nav-item', 'click', 'bottom-legal');
+      });
+
+      $('#mostrar-cartel').on('click', function() {
+        ga('send', 'event', 'nav-item', 'click', 'fotos-cartel');
+      });
+
+      
+
+      /* TRACK main BTN
+      $('#jumpto_bloque_uno-2').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'main-comprar-entradas-btn');
+      });
+
+      $('#jumpto_bloque_social').on('click', function() {
+        ga('send', 'event', 'nav-item', 'click', 'top-compartir');
+      });
+
+      $('#jumpto_bloque_artistas').on('click', function() {
+        ga('send', 'event', 'nav-item', 'click', 'top-artistas');
+      });
+
+      $('#jumpto_bloque_uno').on('click', function() {
+        ga('send', 'event', 'button', 'click', 'top-comprar-entradas');
+      });
+
+      
+*/
+      
+    </script>
+
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

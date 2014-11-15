@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "HelveticaNeueW02-75Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("/static/fonts//Helvetica/db853e0e-929b-4272-b420-c946c954cf3a.eot?#iefix") format("eot"), url("/static/fonts//Helvetica/4a9c62ab-b359-4081-8383-a0d1cdebd111.woff") format("woff"), url("/static/fonts//Helvetica/db5f9ba6-05a4-433a-9461-0a6f257a0c3a.ttf") format("truetype"), url("/static/fonts//Helvetica/25e09910-ffc3-4fc4-b0d1-db9a95dface8.svg#25e09910-ffc3-4fc4-b0d1-db9a95dface8") format("svg");
+}

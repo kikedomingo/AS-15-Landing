@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "HelveticaNeueW01-45Ligh";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/ae1656aa5f8f4905aed093e667bd6e4a.eot?#iefix") format("embedded-opentype"), url("/fonts/530dee22e3c14e9fbf62c31d510d9656.woff") format("woff"), url("/fonts/688ab72b4deb4e15a08889166978d469.ttf") format("truetype"), url("/fonts/7816f72ff47e47158cd7960e3723846a.svg#7816f72ff47e47158cd7960e3723846a") format("svg");
+}
