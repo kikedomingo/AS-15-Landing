@@ -18,7 +18,7 @@
       <meta property="og:title" content="Entradas Arenal Sound 2015 — PUNTO OFICIAL VENTA - Un Festival por Dentro"/>
       <meta property="og:description" content="Compra tus entradas para el festival Arenal Sound 2015 con Un Festival por Dentro. PUNTO DE VENTA OFICIAL Ticketea."/>
       <meta property="og:url" content="http://festivalxdentro.com/arenalsound/"/>
-      <meta property="og:site_name" content="Entradas Arenal Sound 2014 - Un Festival por Dentro"/>
+      <meta property="og:site_name" content="Entradas Arenal Sound 2015 - Un Festival por Dentro"/>
       <meta property="og:image" content="http://festivalxdentro.com/arenalsound/app/img/facebook_as.jpg"/>
       <meta name="google-site-verification" content="F-qODukyVAbeBMizGam_UUeQIEPCq8ISpIR9EcUcYb4"/>
 
@@ -177,7 +177,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<h4>Quedan muy pocas horas para que se abra la venta. ¡<a href="http://twitter.com/festivalxdentro">Síguenos en twitter</a> y te avisaremos!</h4>
+						<h4>Quedan muy pocas horas para que se abra la venta. ¡<a href="http://twitter.com/festivalxdentro" id="twitter_avisaremos">Síguenos en twitter</a> y te avisaremos!</h4>
 						<!--<iframe height="650" src="//www.ticketea.com/entradas-festival-x-dentro-arenal-sound-2015/custom" style="border: 0; width:100%; height:650px"></iframe>-->
 					</div>
 				</div>
@@ -350,6 +350,12 @@
       $('#mostrar-cartel').on('click', function() {
         ga('send', 'event', 'nav-item', 'click', 'fotos-cartel');
       });
+
+      $('#twitter_avisaremos').on('click', function() {
+        ga('send', 'event', 'nav-item', 'click', 'twitter_avisaremos');
+      });
+
+      
 
       
 
