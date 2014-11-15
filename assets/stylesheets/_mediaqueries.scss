@@ -29,6 +29,8 @@
     height: 520px;
   }
 
+  .fullvideo {display: none}
+
   .full-width {
 	& h6 {
 		font-size:16px !important;
@@ -237,6 +239,14 @@
 				line-height: 1.3em;
 			}
 		}
+	}
+  }
+
+  #fotos {
+	& .foto {
+		display: block !important;
+		width: 100% !important;
+		max-height: 300px !important;
 	}
   }
 

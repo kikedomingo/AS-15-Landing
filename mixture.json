@@ -11,7 +11,7 @@
   "convertHtml": {
     "relativePaths": true
   },
-  "debug": true,
+  "debug": false,
   "domain": null,
   "lintScripts": false,
   "modelSource": null,
