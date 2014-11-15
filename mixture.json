@@ -18,9 +18,7 @@
   "preprocessorLocations": [
     "assets",
     "assets/javascripts",
-    "assets/stylesheets",
-    "app/js",
-    "app/css"
+    "assets/stylesheets"
   ],
   "preprocessorScriptOutput": "app/js",
   "preprocessorStyleOutput": "app/css",
