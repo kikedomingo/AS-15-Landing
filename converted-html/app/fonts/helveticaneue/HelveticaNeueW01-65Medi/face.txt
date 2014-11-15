@@ -1,6 +1,0 @@
-@font-face {
-  font-family: "HelveticaNeueW01-65Medi";
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/07fe0fecb63f49638ee1535528b67fdb.eot?#iefix") format("embedded-opentype"), url("/fonts/60be5c39863e40cb94346ebafb62ab2b.woff") format("woff"), url("/fonts/4c6503c9859b4d3ba1d52d42e1222415.ttf") format("truetype"), url("/fonts/36c182c6ef9840219b0dd63122c2bbf5.svg#36c182c6ef9840219b0dd63122c2bbf5") format("svg");
-}

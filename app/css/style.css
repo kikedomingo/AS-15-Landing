@@ -3946,7 +3946,7 @@ footer {
 
   .full-width,
   #testimonials,
-  #study-options {
+  #preguntas {
     padding: 8px 0px 20px 0px; }
 
   #cover {
@@ -3972,12 +3972,13 @@ footer {
         background-color: #ebe9e5;
         padding-right: 10px; }
 
-  #colleges .school {
+  #fotos .foto {
     display: block;
     width: 100%;
     max-height: 300px; }
 
   #introduction {
+    display: none;
     background: #ebe9e5;
     padding: 20px 0; }
     #introduction .container {
@@ -3990,9 +3991,12 @@ footer {
       margin: 0 auto;
       border-radius: 8px; }
 
-  #study-options div ul {
+  #preguntas div ul {
     margin-left: 35px;
     margin-top: 5px; }
+
+  #final {
+    display: none; }
 
   #testimonials {
     padding-top: 30px !important; }
@@ -4093,5 +4097,4 @@ footer {
     margin-right: 0px; } }
 /* /MEDIA QUERIES */
 /**************************************/
-
 

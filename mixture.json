@@ -9,7 +9,7 @@
     ]
   },
   "convertHtml": {
-    "relativePaths": false
+    "relativePaths": true
   },
   "debug": false,
   "domain": null,
